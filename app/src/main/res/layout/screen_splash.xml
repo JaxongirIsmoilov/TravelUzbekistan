@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/splashtitle1">
+    <TextView
+        android:id="@+id/topTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="42sp"
+        android:textStyle="italic"
+        android:textColor="#4B6B87"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="250dp"/>
+    <TextView
+        android:id="@+id/middleTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To"
+        android:textSize="42sp"
+        android:textStyle="italic"
+        android:textColor="#4B6B87"
+        app:layout_constraintTop_toTopOf="@+id/topTv"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="50dp"/>
+    <TextView
+        android:id="@+id/bottomTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uzbekistan"
+        android:textSize="42sp"
+        android:textStyle="italic"
+        android:textColor="#4B6B87"
+        app:layout_constraintTop_toTopOf="@+id/middleTv"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="50dp"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
